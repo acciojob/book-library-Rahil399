@@ -1,9 +1,11 @@
+/* General styling for body */
 body {
     background-color: #f8f8f8;
     margin: 50px;
     font-family: Arial, sans-serif;
 }
 
+/* Styling for the book library container */
 .book-library {
     background-color: #ffffff;
     padding: 20px;
@@ -11,33 +13,23 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
-    text-align: center;
-    font-size: 2rem;
-    margin-bottom: 20px;
-}
-
+/* Styling for each book block */
 .book {
     background-color: lightgray;
     padding: 20px;
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
-    text-align: center; /* Center align the content in each book card */
 }
 
-.book h2 {
-    text-align: left;
-    font-size: 1.5rem;
-    margin: 10px 0;
-}
-
+/* Styling for book author text */
 .author {
     color: #777777;
     margin-top: 10px;
     font-size: 14px;
 }
 
+/* Styling for the price button */
 .price {
     background-color: #2ecc71;
     width: 100%;
@@ -48,33 +40,14 @@ h1 {
     font-size: 16px;
     cursor: pointer;
     margin-top: 15px;
-    transition: background-color 0.3s ease;
 }
 
-.price:hover {
-    background-color: #27ae60;
-}
-
+/* Styling for book image */
 .image {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    max-width: 200px; 
+    max-width: 200px;
     border-radius: 5px;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .book-library {
-        padding: 10px;
-    }
-    
-    .book {
-        padding: 15px;
-    }
-
-    .image {
-        max-width: 150px;
-    }
 }
